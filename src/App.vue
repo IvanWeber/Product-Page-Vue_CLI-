@@ -2,10 +2,16 @@
   <div id="app">
     <Header/>
     <div class="container main-content">
+
       <div class="row row-1">
         <Slider/>
         <Tabs/>
       </div>
+
+      <div class="row row-2">
+        <OrderForm/>
+      </div>
+
     </div>
   </div>
 </template>
@@ -15,6 +21,7 @@
 import Header from './components/Header.vue'
 import Slider from './components/Slider.vue'
 import Tabs from './components/Tabs.vue'
+import OrderForm from './components/OrderForm.vue'
 
 export default {
   name: 'app',
@@ -22,6 +29,7 @@ export default {
     Header,
     Slider,
     Tabs,
+    OrderForm
   }
 }
 </script>
