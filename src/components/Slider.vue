@@ -1,5 +1,6 @@
 <template>
-    <div class="col-md-5">
+    <div class="col-md-6">
+        <h1>Ноутбук Lenovo V130 15</h1>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -26,6 +27,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        <p class="price">27 214 ₽</p>
     </div>
 </template>
 
@@ -49,5 +51,10 @@
         height: 500px;
         display:flex;
         align-items: center;
+    }
+
+    .price {
+        font-size: 50px;
+        text-align: center;
     }
 </style>

@@ -1,16 +1,16 @@
 @import '~bootstrap/scss/bootstrap';
 
-//.carousel-indicators li {
-//  filter: invert(50%);
-//}
-//
-//.carousel-control-next,
-//.carousel-control-prev {
-//  filter: invert(50%);
-//}
-//
-//.carousel-inner {
-//  height: 500px;
-//  display:flex;
-//  align-items: center;
-//}
+$big-margin: 50px;
+$small-margin: 25px;
+
+.price {
+  margin-top: $small-margin;
+}
+
+.carousel {
+  margin-top: $small-margin;
+}
+
+.row-1, .row-2 {
+  margin-top: $big-margin;
+}

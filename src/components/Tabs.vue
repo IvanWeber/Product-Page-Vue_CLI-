@@ -1,7 +1,5 @@
 <template>
-    <div class="col-md-7">
-
-        <h1>Ноутбук Lenovo V130 15</h1>
+    <div class="col-md-6">
 
         <ul class="nav nav-tabs">
             <li class="nav-item">
