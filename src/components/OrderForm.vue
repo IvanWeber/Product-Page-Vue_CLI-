@@ -1,6 +1,6 @@
 <template>
     <div class="col-md-7">
-        <p>Закажите сейчас</p>
+        <p>Закажите сейчас!</p>
         <form action="php/send.php" method="post">
             <div class="form-group">
                 <label for="phone">Телефон</label>
