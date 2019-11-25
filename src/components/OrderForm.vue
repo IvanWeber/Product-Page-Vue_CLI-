@@ -4,7 +4,7 @@
         <form action="php/send.php" method="post">
             <div class="form-group">
                 <label for="phone">Телефон</label>
-                <input type="tel" name="phone" class="form-control" id="phone" aria-describedby="emailHelp" placeholder="Ваш телефон в формате +х-ххх-ххх-хх-хх" pattern="[\+]\d{1}d{3}\d{3}\d{2}\d{2}" required>
+                <input type="tel" name="phone" class="form-control" id="phone" aria-describedby="emailHelp" placeholder="Ваш телефон (до 13-ти цифр)" pattern="^\+?\d{0,13}" required>
             </div>
             <div class="form-group">
                 <label for="name">Имя</label>
