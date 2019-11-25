@@ -3,6 +3,17 @@
 $big-margin: 50px;
 $small-margin: 25px;
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
 .price {
   margin-top: $small-margin;
 }
@@ -11,6 +22,15 @@ $small-margin: 25px;
   margin-top: $small-margin;
 }
 
-.row-1, .row-2 {
+.row-1 {
   margin-top: $big-margin;
+  margin-bottom: $big-margin;
+}
+
+.row-2 {
+  margin-bottom: $big-margin;
+}
+
+.main-content {
+  min-height: calc(100vh - 63px);
 }
