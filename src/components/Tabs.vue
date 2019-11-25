@@ -78,7 +78,5 @@
 </script>
 
 <style scoped>
-    .tab-content {
-        margin-top: 25px;
-    }
+
 </style>

@@ -11,7 +11,5 @@
 </script>
 
 <style scoped>
-    .footer-copyright {
-        background-color: rgb(248, 249, 250);
-    }
+
 </style>

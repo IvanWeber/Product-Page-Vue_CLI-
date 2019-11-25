@@ -38,23 +38,5 @@
 </script>
 
 <style scoped>
-    .carousel-indicators li {
-        filter: invert(50%);
-    }
 
-    .carousel-control-next,
-    .carousel-control-prev {
-        filter: invert(50%);
-    }
-
-    .carousel-inner {
-        height: 500px;
-        display:flex;
-        align-items: center;
-    }
-
-    .price {
-        font-size: 50px;
-        text-align: center;
-    }
 </style>

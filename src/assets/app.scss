@@ -1,7 +1,12 @@
 @import '~bootstrap/scss/bootstrap';
 
+$main-color: rgb(248, 249, 250);
 $big-margin: 50px;
 $small-margin: 25px;
+$footer-height: 63px;
+$price-font-size: 40px;
+
+/*common styles*/
 
 * {
   margin: 0;
@@ -14,14 +19,6 @@ body {
   height: 100%;
 }
 
-.price {
-  margin-top: $small-margin;
-}
-
-.carousel {
-  margin-top: $small-margin;
-}
-
 .row-1 {
   margin-top: $big-margin;
   margin-bottom: $big-margin;
@@ -32,5 +29,42 @@ body {
 }
 
 .main-content {
-  min-height: calc(100vh - 63px);
+  min-height: calc(100vh - #{$footer-height});
+}
+
+.footer-copyright {
+  background-color: $main-color;
+}
+
+/*Slider.vue*/
+
+.carousel {
+  margin-top: $small-margin;
+}
+
+.carousel-indicators li {
+  filter: invert(50%);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(50%);
+}
+
+.carousel-inner {
+  height: 500px;
+  display:flex;
+  align-items: center;
+}
+
+.price {
+  font-size: $price-font-size;
+  text-align: center;
+  margin-top: $small-margin;
+}
+
+/*Tabs.vue*/
+
+.tab-content {
+  margin-top: $small-margin;
 }
