@@ -1,7 +1,7 @@
 <template>
     <div class="col-md-7">
-        <p>Закажите сейчас!</p>
-        <form action="php/send.php" method="post">
+        <b class="appeal-text">Закажите сейчас!</b>
+        <form action="php/send.php" method="post" class="form-order">
             <div class="form-group">
                 <label for="phone">Телефон</label>
                 <input type="tel" name="phone" class="form-control" id="phone" aria-describedby="emailHelp" placeholder="Ваш телефон (до 13-ти цифр)" pattern="^\+?\d{0,13}" required>

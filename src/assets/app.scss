@@ -1,7 +1,7 @@
 @import '~bootstrap/scss/bootstrap';
 
 $main-color: rgb(248, 249, 250);
-$big-margin: 50px;
+$big-margin: 40px;
 $small-margin: 25px;
 $footer-height: 63px;
 $price-font-size: 40px;
@@ -66,5 +66,11 @@ body {
 /*Tabs.vue*/
 
 .tab-content {
+  margin-top: $small-margin;
+}
+
+/*OrderForm*/
+
+.form-order {
   margin-top: $small-margin;
 }
