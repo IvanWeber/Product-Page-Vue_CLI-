@@ -22,3 +22,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+# Information
+Почта, куда присылаются сообщения с данными клиента: product-orders-mail@yandex.ru
+Пароль от почты: accfororders
